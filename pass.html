@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>password generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="content">
+        <label for="">password</label
+        ><input type="text" id="password" class="password" /><br />
+        <label for="range">range</label
+        ><input
+          type="range"
+          id="range"
+          min="0"
+          max="50"
+          value="100"
+          class="range"
+        /><span id="span">50</span><br />
+        <button onclick="generatepassword()" >generate</button><br>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
